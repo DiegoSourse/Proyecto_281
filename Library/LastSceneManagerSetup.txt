@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/TDTK_Free/Scenes/TDTKFree_TwoPath.unity
+  isLoaded: 1
+  isActive: 1
