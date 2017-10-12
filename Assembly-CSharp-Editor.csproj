@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CB8D2B77-AAC8-E9A6-9B91-A3582E27A5F0}</ProjectGuid>
+    <ProjectGuid>{8CACA42F-4E04-33CA-64A9-10E739026F58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,26 +46,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\AboutWindow.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\BuildManagerEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\CameraControlEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\EditorDBManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\EditorUtilities.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\GameControlEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\MenuExtension.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\PathTDEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\PlatformTDEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\ResourceDBEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\ResourceManagerEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\ShootObjectEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\SpawnEditorWindow.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\SpawnManagerEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\UnitCreepAnimationEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\UnitCreepEditorWindow.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\UnitEditorWindow.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\UnitTowerEditor.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Editor\UnitTowerEditorWindow.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\Editor\UIEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\AboutWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\BuildManagerEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\CameraControlEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\EditorDBManager.cs" />
+     <Compile Include="Assets\Scripts\Editor\EditorUtilities.cs" />
+     <Compile Include="Assets\Scripts\Editor\GameControlEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\MenuExtension.cs" />
+     <Compile Include="Assets\Scripts\Editor\PathTDEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\PlatformTDEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\ResourceDBEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\ResourceManagerEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\ShootObjectEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SpawnEditorWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\SpawnManagerEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\UnitCreepAnimationEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\UnitCreepEditorWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\UnitEditorWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\UnitTowerEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\UnitTowerEditorWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\Editor\UIEditor.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -126,7 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F825EB74-CEF5-1B89-83B8-102DA6F2403F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{615D3049-EBA8-1F28-45FD-FF8DD5E30B26}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

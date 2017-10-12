@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F825EB74-CEF5-1B89-83B8-102DA6F2403F}</ProjectGuid>
+    <ProjectGuid>{615D3049-EBA8-1F28-45FD-FF8DD5E30B26}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,48 +46,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TDTK_Free\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\BuildManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\CameraControl.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Class\TDTK_Class.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Class\TDTK_Class_AttackInstance.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Class\TDTK_Class_UnitStat.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Class\TDTK_Class_Wave.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\DB\CreepDB.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\DB\ResourceDB.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\DB\TowerDB.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\DemoMenu&amp;Props\DemoMenu.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\DemoMenu&amp;Props\Hover.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\GameControl.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\LayerManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Misc\Blink_MGMuzzle.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Misc\LaserFade.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Misc\RotateYaxis.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Misc\SelfDeactivator.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\ObjectPoolManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\PathIndicator.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\PathTD.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\PlatformTD.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\ResourceManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\ShootObject.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\SpawnManager.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\TDTK.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UI.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIBuildButton.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIClass.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIGameMessage.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIGameOverMenu.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIHUD.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIOverlay.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIPauseMenu.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UITowerInfo.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UI\UIUtilities.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Unit.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UnitCreep.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UnitCreepAnimation.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\UnitTower.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\Utility.cs" />
-     <Compile Include="Assets\TDTK_Free\Scripts\WaveGenerator.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\BuildManager.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Class\TDTK_Class.cs" />
+     <Compile Include="Assets\Scripts\Class\TDTK_Class_AttackInstance.cs" />
+     <Compile Include="Assets\Scripts\Class\TDTK_Class_UnitStat.cs" />
+     <Compile Include="Assets\Scripts\Class\TDTK_Class_Wave.cs" />
+     <Compile Include="Assets\Scripts\DB\CreepDB.cs" />
+     <Compile Include="Assets\Scripts\DB\ResourceDB.cs" />
+     <Compile Include="Assets\Scripts\DB\TowerDB.cs" />
+     <Compile Include="Assets\Scripts\DemoMenu&amp;Props\DemoMenu.cs" />
+     <Compile Include="Assets\Scripts\DemoMenu&amp;Props\Hover.cs" />
+     <Compile Include="Assets\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Scripts\LayerManager.cs" />
+     <Compile Include="Assets\Scripts\Misc\Blink_MGMuzzle.cs" />
+     <Compile Include="Assets\Scripts\Misc\LaserFade.cs" />
+     <Compile Include="Assets\Scripts\Misc\RotateYaxis.cs" />
+     <Compile Include="Assets\Scripts\Misc\SelfDeactivator.cs" />
+     <Compile Include="Assets\Scripts\ObjectPoolManager.cs" />
+     <Compile Include="Assets\Scripts\PathIndicator.cs" />
+     <Compile Include="Assets\Scripts\PathTD.cs" />
+     <Compile Include="Assets\Scripts\PlatformTD.cs" />
+     <Compile Include="Assets\Scripts\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\ShootObject.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\TDTK.cs" />
+     <Compile Include="Assets\Scripts\UI\UI.cs" />
+     <Compile Include="Assets\Scripts\UI\UIBuildButton.cs" />
+     <Compile Include="Assets\Scripts\UI\UIClass.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGameMessage.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGameOverMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\UIHUD.cs" />
+     <Compile Include="Assets\Scripts\UI\UIOverlay.cs" />
+     <Compile Include="Assets\Scripts\UI\UIPauseMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\UITowerInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UIUtilities.cs" />
+     <Compile Include="Assets\Scripts\Unit.cs" />
+     <Compile Include="Assets\Scripts\UnitCreep.cs" />
+     <Compile Include="Assets\Scripts\UnitCreepAnimation.cs" />
+     <Compile Include="Assets\Scripts\UnitTower.cs" />
+     <Compile Include="Assets\Scripts\Utility.cs" />
+     <Compile Include="Assets\Scripts\WaveGenerator.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
