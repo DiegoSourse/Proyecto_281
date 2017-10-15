@@ -40,7 +40,7 @@ namespace TDTK {
 			private static GameObject CreatePrefab(){
 				GameObject obj=new GameObject();
 				obj.AddComponent<CreepDB>();
-				GameObject prefab=PrefabUtility.CreatePrefab("Assets/TDTK_Free/Resources/DB_TDTK/CreepDB.prefab", obj, ReplacePrefabOptions.ConnectToPrefab);
+				GameObject prefab=PrefabUtility.CreatePrefab("Assets/Resources/DB_TDTK/CreepDB.prefab", obj, ReplacePrefabOptions.ConnectToPrefab);
 				DestroyImmediate(obj);
 				AssetDatabase.Refresh ();
 				return prefab;
