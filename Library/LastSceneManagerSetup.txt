@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/TDTKFree_TwoPath.unity
+- path: Assets/Scenes/TDTKFree_OnePath.unity
   isLoaded: 1
   isActive: 1
