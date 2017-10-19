@@ -247,8 +247,8 @@ namespace TDTK {
 		
 		public Unit target;
 		
-		public enum _TargetPriority{Nearest, Weakest, Toughest, First, Random};
-		public _TargetPriority targetPriority=_TargetPriority.Random;
+		public enum _TargetPriority{Cercano, Lejano, Resistente, Primero, Aleatorio};
+		public _TargetPriority targetPriority=_TargetPriority.Aleatorio;
 		public void SwitchToNextTargetPriority(){
 			int nextPrior=(int)targetPriority+1;
 			if(nextPrior>=5) nextPrior=0;
@@ -297,8 +297,8 @@ namespace TDTK {
 						
 						
 						if(tgtList.Count>0){
-							if(targetPriority==_TargetPriority.Random) target=tgtList[Random.Range(0, tgtList.Count-1)];
-							else if(targetPriority==_TargetPriority.Nearest){
+							if(targetPriority==_TargetPriority.Aleatorio) target=tgtList[Random.Range(0, tgtList.Count-1)];
+							else if(targetPriority==_TargetPriority.Cercano){
 								float nearest=Mathf.Infinity;
 								for(int i=0; i<tgtList.Count; i++){
 									float dist=Vector3.Distance(thisT.position, tgtList[i].thisT.position);
@@ -308,7 +308,7 @@ namespace TDTK {
 									}
 								}
 							}
-							else if(targetPriority==_TargetPriority.Weakest){
+							else if(targetPriority==_TargetPriority.Lejano){
 								float lowest=Mathf.Infinity;
 								for(int i=0; i<tgtList.Count; i++){
 									if(tgtList[i].HP<lowest){
@@ -317,7 +317,7 @@ namespace TDTK {
 									}
 								}
 							}
-							else if(targetPriority==_TargetPriority.Toughest){
+							else if(targetPriority==_TargetPriority.Resistente){
 								float highest=0;
 								for(int i=0; i<tgtList.Count; i++){
 									if(tgtList[i].HP>highest){
@@ -326,7 +326,7 @@ namespace TDTK {
 									}
 								}
 							}
-							else if(targetPriority==_TargetPriority.First){
+							else if(targetPriority==_TargetPriority.Primero){
 								target=tgtList[Random.Range(0, tgtList.Count-1)];
 								float lowest=Mathf.Infinity;
 								for(int i=0; i<tgtList.Count; i++){
