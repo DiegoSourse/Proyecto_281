@@ -405,13 +405,13 @@ namespace TDTK {
 				return "";
 			}
 			
-			return "Insufficient Resource   "+suffCost;
+			return "Insuficiente Recurso   "+suffCost;
 		}
 		
 		
 		//called by any external component to build tower, uses buildInfo
 		public static string BuildTower(UnitTower tower){
-			if(buildInfo==null) return "Select a Build Point First";
+			if(buildInfo==null) return "Seleccione un punto de compilación primero";
 			
 			UnitTower sampleTower=GetSampleTower(tower);
 			
@@ -432,7 +432,7 @@ namespace TDTK {
 				return "";
 			}
 			
-			return "Insufficient Resource";
+			return "Insuficiente Recurso";
 		}
 		
 		
