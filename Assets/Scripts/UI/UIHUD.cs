@@ -90,7 +90,7 @@ namespace TDTK {
 			SpawnManager.Spawn();
 			buttonSpawn.rootObj.SetActive(false);
 			
-			buttonSpawn.label.text="Next Wave";
+			buttonSpawn.label.text="Siguiente Ola";
 		}
 		
 		void OnEnableSpawn(){
@@ -101,8 +101,8 @@ namespace TDTK {
 		void OnSpawnTimer(float duration){ timerDuration=duration; }
 		void FixedUpdate(){
 			if(timerDuration>0){
-				if(timerDuration<60) txtTimer.text="Next Wave in "+(Mathf.Ceil(timerDuration)).ToString("f0")+"s";
-				else txtTimer.text="Next Wave in "+(Mathf.Floor(timerDuration/60)).ToString("f0")+"m";
+				if(timerDuration<60) txtTimer.text="Siguiente Ola en "+(Mathf.Ceil(timerDuration)).ToString("f0")+"s";
+				else txtTimer.text="Siguiente Ola en "+(Mathf.Floor(timerDuration/60)).ToString("f0")+"m";
 				timerDuration-=Time.fixedDeltaTime;
 			}
 			else if(txtTimer.text!="") txtTimer.text="";

@@ -51,11 +51,11 @@ namespace TDTK {
 		public static void Show(bool playerWon){ instance._Show(playerWon); }
 		public void _Show(bool playerWon){
 			if(playerWon){
-				txtTitle.text="Level Completed!";
+				txtTitle.text="Nivel Completado!";
 				butContinueObj.SetActive(true);
 			}
 			else{
-				txtTitle.text="Game Over";
+				txtTitle.text="Juego Perdido";
 				butContinueObj.SetActive(false);
 			}
 			
